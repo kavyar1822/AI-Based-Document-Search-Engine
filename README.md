@@ -3,7 +3,7 @@ PROJECT TITLE:
 
 AI-Based-Document-Search-Engine
 
-PROBLEM SATEMENT:
+**PROBLEM SATEMENT:**
 
 What is the problem?<br>
 In today’s digital world, a huge amount of information is stored in documents such as PDFs, reports, and text files. However, most existing search systems on simple keyword matching, which often fails to understand the actual meaning or context of a user’s query. As a result, users spend a lot of time manually searching through documents to find relevant information.
