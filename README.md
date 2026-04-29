@@ -1,5 +1,5 @@
 # AI-Based-Document-Search-Engine
-PROJECT TITLE:
+**PROJECT TITLE:**
 
 AI-Based-Document-Search-Engine
 
@@ -14,7 +14,7 @@ This problem mainly affects students, researchers, and professionals who regular
 Why is it important?<br>
 This issue is important because inefficient search leads to wasted time, reduced productivity, and difficulty in accessing useful knowledge. Therefore, there is a need for an intelligent system that can understand the intent behind a query and provide accurate, context-based results instead of just keyword matches.
 
-MY UNDERSTANDING OF THE PROBLEM:
+**MY UNDERSTANDING OF THE PROBLEM:**
 
 From my analysis, the main issue is not just about searching documents, but about understanding the intent behind the user’s query. Most current systems treat search as a keyword-matching task, whereas users actually expect meaningful and relevant answers.
 
@@ -30,7 +30,7 @@ Your assumptions:<br>
 -> Users prefer getting direct, relevant answers instead of scanning entire documents<br>
 -> A semantic search system using embeddings can significantly improve accuracy and user experience
 
-RESEARCH ON EXISTING SOLUTIONS:
+**RESEARCH ON EXISTING SOLUTIONS:**
 
 -> Semantic Search using Sentence Transformers + FAISS<br>
 This solution uses transformer-based models to convert text into embeddings and stores them in a FAISS index for fast similarity search. It retrieves results based on meaning rather than exact keywords, allowing it to handle synonyms and context effectively.
@@ -46,7 +46,7 @@ Limitations identified:<br>
 -> Many advanced solutions require high computational resources and technical expertise, making them difficult for beginners or small-scale users <br>
 -> Existing tools often lack simple user interfaces and are not optimized for easy integration into small academic or local projects
 
-MY IDENTIFIED GAP (Novelty):
+**MY IDENTIFIED GAP (Novelty):**
 
 From my research, I observed that although semantic search systems exist, they are not designed with simplicity, accessibility, and real-world usability in mind for students or small-scale users.
 
@@ -65,7 +65,7 @@ My idea is to build an AI-based Smart Document Search Engine that not only perfo
 The system will retrieve relevant document sections using embeddings and then use an AI model to generate clear, concise answers. Additionally, it will highlight the exact portion of the document where the answer is found, improving transparency and trust.<br>
 This approach creates a hybrid system that is accurate, user-friendly, and efficient, making advanced AI search capabilities accessible for students and general users without requiring complex setup or high computational resources.
 
-MY PROPOSED APPROACH
+**MY PROPOSED APPROACH**
 
 How you propose to solve the problem:<br>
 -> I propose to build a smart document search system that uses semantic search instead of traditional keyword matching. The system will first process uploaded documents (such as PDFs or text files) by breaking them into smaller meaningful sections. Each section will be converted into embeddings using a pre-trained language model.<br>
@@ -78,18 +78,18 @@ Possible features:<br>
 -> AI-generated answers based on retrieved content <br>
 -> Fast response using efficient vector search
 
-CHALLENGES AND OPEN QUESTIONS :
+**CHALLENGES AND OPEN QUESTIONS :**
 
 -> How to efficiently handle large documents or multiple files without slowing down the search performance?<br>
 -> What is the best way to highlight or present results so that users can easily understand and trust the output?
 
-WHAT I LEARNT:
+**WHAT I LEARNT:**
 
 -> I learned that understanding the problem deeply is more important than directly jumping into building a solution. Proper analysis helps in identifying real gaps and designing a more effective system.<br>
 -> I realized that traditional keyword-based search is limited, and modern AI techniques like semantic search can significantly improve how information is retrieved and used.<br>
 -> I gained a better understanding of how AI models, embeddings, and vector databases work together to solve real-world problems like intelligent document search, and how user experience plays a crucial role in making such systems practical.
 
-NEXT STEPS:
+**NEXT STEPS:**
 
 ->Improve research depth by studying more semantic search models and real-world implementations<br>
 -> Validate the idea with users or mentors to get practical feedback and suggestions<br>
