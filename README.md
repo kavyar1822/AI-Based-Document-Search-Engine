@@ -2,52 +2,52 @@
 
 ---
 
-## 🏷️ Project Title
+##  Project Title
 AI-Based Smart Document Search Engine  
 
 ---
 
-## 🔍 Overview
+##  Overview
 This project is an AI-powered document search engine that retrieves and generates answers based on the **context and meaning** of user queries rather than simple keyword matching. It enables efficient search across large collections of unstructured documents such as PDFs, reports, and text files.
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
-### ❓ What is the problem?
+###  What is the problem?
 Large volumes of information are stored in documents such as PDFs, reports, and text files. Existing systems rely on **keyword matching**, which fails to understand meaning and context, leading to irrelevant results.
 
-### 👥 Who does it affect?
+###  Who does it affect?
 - Students  
 - Researchers  
 - Working professionals  
 - Organizations  
 
-### ⚠️ Why is it important?
+###  Why is it important?
 - Increases time spent searching  
 - Reduces productivity  
 - Limits effective knowledge usage  
 
-👉 **One-Line Problem:**  
+ **One-Line Problem:**  
 Inefficient retrieval of relevant information from large unstructured documents due to lack of context-aware search.
 
 ---
 
-## 🧠 Understanding the Problem
+##  Understanding the Problem
 
 The core issue is that traditional search systems treat search as **keyword matching instead of meaning-based retrieval**, failing to capture user intent.
 
-### 🔍 Key Issues
+###  Key Issues
 - Missing relevant information due to wording differences  
 - Presence of irrelevant results  
 
-### ❗ Why this happens
+###  Why this happens
 - Lack of semantic understanding  
 - Poor preprocessing and structuring  
 
 ---
 
-## 🧩 Structured Sub-Problems
+##  Structured Sub-Problems
 - Data Extraction from multiple formats  
 - Preprocessing noisy/inconsistent data  
 - Lack of semantic understanding  
@@ -59,7 +59,7 @@ The core issue is that traditional search systems treat search as **keyword matc
 
 ---
 
-## ⚠️ Symptoms vs Root Problems
+##  Symptoms vs Root Problems
 
 ### Symptoms
 - Irrelevant results  
@@ -75,7 +75,7 @@ The core issue is that traditional search systems treat search as **keyword matc
 
 ---
 
-## 🔍 Root Cause Analysis (5 Whys)
+##  Root Cause Analysis (5 Whys)
 
 **Problem:** Irrelevant results  
 
@@ -85,7 +85,7 @@ The core issue is that traditional search systems treat search as **keyword matc
 - Weak embedding usage  
 - Traditional system design  
 
-👉 **Root Cause:** Lack of semantic AI-based search architecture  
+ **Root Cause:** Lack of semantic AI-based search architecture  
 
 ---
 
@@ -96,11 +96,11 @@ Unstructured Data
 → Inefficient Indexing  
 → Keyword Matching  
 → Misinterpretation  
-→ ❌ Irrelevant Results  
+→  Irrelevant Results  
 
 ---
 
-## ⚙️ Causes
+##  Causes
 
 ### Systemic
 - Traditional keyword-based systems  
@@ -116,7 +116,7 @@ Unstructured Data
 
 ---
 
-## 👥 Stakeholders & Impact
+##  Stakeholders & Impact
 
 ### Stakeholders
 - Students / Researchers  
@@ -132,7 +132,7 @@ Unstructured Data
 
 ---
 
-## 🔎 Research on Existing Solutions
+##  Research on Existing Solutions
 
 ### 1. Sentence Transformers + FAISS
 - Semantic embeddings  
@@ -141,26 +141,26 @@ Unstructured Data
 ### 2. txtai
 - AI-based document search and QA system  
 
-### 📊 Observations
+### Observations
 - Shift toward semantic search  
 - Vector databases improve retrieval efficiency  
 
-### ⚠️ Limitations
+###  Limitations
 - High computational cost  
 - Complex setup  
 
 ---
 
-## 💡 Identified Gap (Novelty)
+##  Identified Gap (Novelty)
 
-### 🚫 Missing in current systems
+###  Missing in current systems
 - Simple integration of search + answer generation  
 - Highlighting exact relevant content  
 
-### ❗ Problem
+###  Problem
 Users must manually read retrieved documents to find answers.
 
-### 💭 Proposed Idea
+###  Proposed Idea
 A system that:
 - Performs semantic search  
 - Generates AI-based answers  
@@ -168,9 +168,9 @@ A system that:
 
 ---
 
-## 🏗️ Proposed Approach
+##  Proposed Approach
 
-### ⚙️ Workflow
+###  Workflow
 1. Document Upload  
 2. Text Extraction  
 3. Chunking  
@@ -180,7 +180,7 @@ A system that:
 7. Similarity Search  
 8. Answer Generation (LLM)  
 
-### 🚀 Features
+###  Features
 - Context-aware semantic search  
 - Multi-format support (PDF, text)  
 - AI-generated answers  
@@ -188,23 +188,23 @@ A system that:
 
 ---
 
-## 🔄 Use Case Scenarios
+##  Use Case Scenarios
 
-### 📘 Academic Research
+###  Academic Research
 Search across research papers  
 Flow: Upload → Process → Retrieve → Answer  
 
-### 🏢 Enterprise Search
+###  Enterprise Search
 Retrieve company documents  
 Flow: Store → Query → Retrieve → Answer  
 
-### 💬 Customer Support
+###  Customer Support
 Chatbot for FAQs  
 Flow: Docs → Query → Answer  
 
 ---
 
-## 🧠 Refined Assumptions
+##  Refined Assumptions
 - Documents may require preprocessing  
 - Users may provide vague queries  
 - Semantic search improves accuracy  
@@ -217,14 +217,14 @@ Flow: Docs → Query → Answer
 
 ---
 
-## ⚠️ Challenges
+##  Challenges
 - Handling large-scale data efficiently  
 - Ensuring accuracy of AI-generated answers  
 - Designing a user-friendly interface  
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 - Depends on data quality  
 - LLM hallucination risk  
 - High computational requirements  
@@ -232,7 +232,7 @@ Flow: Docs → Query → Answer
 
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 - Retrieval Accuracy  
 - Response Relevance  
 - Latency  
@@ -240,7 +240,7 @@ Flow: Docs → Query → Answer
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 - Multilingual support  
 - Voice-based search  
 - Real-time updates  
@@ -249,7 +249,7 @@ Flow: Docs → Query → Answer
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 - Sentence Transformers  
 - FAISS  
 - LangChain  
