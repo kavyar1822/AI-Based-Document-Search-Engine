@@ -1,4 +1,4 @@
-# 📄 AI-Based Smart Document Search Engine
+#  AI-Based Smart Document Search Engine
 
 ---
 
