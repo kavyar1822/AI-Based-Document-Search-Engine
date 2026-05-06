@@ -290,4 +290,6 @@ An AI-based system that:
 
 ---
 ## Documentation
--📄 [Read PDF](./docs/Paper1.pdf)
+- [Read PDF](./docs/Paper1.pdf)
+- [Read PDF](./docs/Paper2.pdf)
+- [Read PDF](./docs/Paper3.pdf)
