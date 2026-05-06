@@ -289,5 +289,4 @@ An AI-based system that:
 - Python  
 
 ---
-## Reference 
--[Read PDF](./docs/Paper1.pdf)
+
