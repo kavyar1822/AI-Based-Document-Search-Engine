@@ -8,8 +8,6 @@
 
 # AI-BASED SMART DOCUMENT SEARCH ENGINE
 
-## IEEE Style Research Paper
-
 ### Submitted by
 
 **Kavya R**  
