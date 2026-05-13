@@ -776,21 +776,6 @@ Overall, the research shows that AI-driven semantic retrieval systems can greatl
 
 ---
 
-# Appendix (Optional)
-
-## Additional Materials
-
-The appendix may include:
-
-- System architecture diagrams
-- Experimental graphs
-- User interface screenshots
-- Sample query outputs
-- Additional performance tables
-- Source code snippets
-
----
-
 # Declaration
 
 We hereby declare that this research work is original and has been carried out by us under the guidance of the faculty mentor. All references used in this paper have been properly cited.
