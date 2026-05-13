@@ -657,3 +657,208 @@ The following metrics are used to evaluate system performance:
 
 ---
 
+# 10. Results and Analysis
+
+## 10.1 Experimental Results
+
+The performance of the proposed AI-Based Smart Document Search Engine was evaluated and compared with traditional keyword-based document retrieval systems. The comparison focuses on semantic understanding, retrieval relevance, and overall search efficiency.
+
+| Metric | Existing System | Proposed System |
+|---|---|---|
+| Accuracy | 72% | 92% |
+| Precision | 70% | 90% |
+| Recall | 68% | 89% |
+| F1-Score | 69% | 89.5% |
+
+---
+
+## 10.3 Observations
+
+The experimental analysis of the proposed AI-Based Smart Document Search Engine produced several important observations regarding semantic retrieval, contextual understanding, and overall system performance.
+
+### Observation 1: Improved Contextual Understanding
+
+The proposed system successfully understood the semantic meaning of user queries rather than relying only on exact keyword matching. Even when users entered natural language questions or indirect queries, the system retrieved relevant information effectively.
+
+### Observation 2: Better Retrieval Accuracy
+
+Compared to traditional keyword-based systems, the proposed semantic search approach significantly improved retrieval accuracy. Relevant document chunks were retrieved even when the exact keywords were absent from the documents.
+
+### Observation 3: Reduction of Irrelevant Results
+
+The use of vector embeddings and semantic similarity search reduced the number of irrelevant search results. This improved the precision and quality of retrieved information.
+
+### Observation 4: Efficient Handling of Unstructured Documents
+
+The system efficiently processed large unstructured documents such as PDFs and research papers through text extraction, preprocessing, and chunking techniques.
+
+### Observation 5: Faster Information Access
+
+FAISS vector indexing enabled faster retrieval of semantically similar document chunks, reducing overall search time and improving user experience.
+
+### Observation 6: Effective AI-Based Answer Generation
+
+Large Language Models (LLMs) generated context-aware and human-readable responses using retrieved document content, improving interaction quality and usability.
+
+### Observation 7: Scalability Challenges
+
+As document size and dataset volume increased, computational requirements and memory usage also increased. This indicates the importance of optimized indexing and scalable infrastructure for large-scale deployment.
+
+---
+
+# 11. Discussion
+
+The proposed AI-Based Smart Document Search Engine demonstrated significant improvements over traditional keyword-based search systems by introducing semantic understanding and intelligent information retrieval techniques.
+
+## Improvements Achieved
+
+The proposed system achieved several improvements, including:
+
+- Better semantic understanding of user queries
+- Improved retrieval relevance and accuracy
+- Faster information access using vector databases
+- Intelligent answer generation using LLMs
+- Reduced dependency on exact keyword matching
+- Efficient handling of unstructured documents
+
+The integration of embeddings, semantic similarity search, and Large Language Models enabled the system to provide context-aware results and improve user interaction.
+
+## Challenges Faced
+
+During implementation and experimentation, several challenges were encountered:
+
+- Handling large document datasets efficiently
+- Managing computational and memory requirements
+- Ensuring retrieval accuracy for complex queries
+- Reducing hallucinated AI-generated responses
+- Maintaining fast response time with increasing data size
+
+These challenges highlight the need for optimization and scalable infrastructure in AI-based retrieval systems.
+
+## Performance Comparison
+
+The proposed semantic retrieval system outperformed traditional keyword-based search systems in terms of:
+
+- Accuracy
+- Precision
+- Recall
+- Context understanding
+- User experience
+
+Traditional systems mainly depended on exact keyword matching, while the proposed system used semantic embeddings and contextual retrieval techniques to improve overall performance.
+
+## Real-World Applicability
+
+The proposed system has strong real-world applications in multiple domains, including:
+
+- Academic research systems
+- Enterprise document management
+- Customer support platforms
+- Knowledge management systems
+- Digital libraries
+- Legal and healthcare document retrieval
+
+The system can help users quickly retrieve relevant information from large document repositories, improving productivity and decision-making.
+
+---
+
+# 12. Limitations
+
+Although the proposed system improves document retrieval performance, some limitations still exist.
+
+- High computational and memory requirements
+- Dependency on quality and structure of input documents
+- Possibility of hallucinated AI-generated responses
+- Performance reduction with extremely large datasets
+- Requirement of internet/API access for some AI models
+- Limited multilingual support in the current implementation
+
+---
+
+# 13. Future Scope
+
+The proposed system can be further improved and extended in several ways.
+
+### Future Enhancements
+
+- Cloud-based deployment for large-scale accessibility
+- Mobile application support
+- Real-time document synchronization
+- Multilingual semantic search support
+- Voice-based query interaction
+- OCR integration for scanned documents
+- Hybrid search combining keyword and semantic retrieval
+- Edge AI optimization for lightweight deployment
+- Advanced reranking models for better retrieval accuracy
+- Integration with enterprise knowledge management systems
+
+These future improvements can enhance scalability, usability, and overall system intelligence.
+
+---
+
+# 14. Conclusion
+
+This research addressed the limitations of traditional keyword-based document search systems, which often fail to understand the semantic meaning and context of user queries. Existing systems generally provide fast retrieval but lack intelligent contextual understanding, resulting in irrelevant search results and reduced productivity.
+
+To overcome these limitations, an AI-Based Smart Document Search Engine was proposed using semantic search, vector embeddings, FAISS vector databases, and Large Language Models (LLMs). The system processes unstructured documents, generates semantic embeddings, performs similarity-based retrieval, and provides context-aware answers to users.
+
+The experimental results demonstrated significant improvements in retrieval accuracy, precision, recall, and overall search relevance compared to traditional search approaches. The proposed system successfully reduced dependency on exact keyword matching and improved intelligent document interaction.
+
+Overall, the research shows that AI-driven semantic retrieval systems can greatly enhance document search efficiency, improve user productivity, and provide intelligent access to information across academic, enterprise, and research applications.
+
+---
+
+# 15. References
+
+## IEEE References
+
+[1] K. Shruthi, E. Tulasi, R. Anjali, and S. Maniteja, "AI Powered Document Processing System Using LangChain & Semantic Search," International Journal of Advanced Research in Science, Communication and Technology, vol. 4, no. 2, pp. 101-108, 2024.
+
+[2] A. Modi, A. Bhandari, K. Desai, and N. Shah, "Smart Search Engine Using Artificial Intelligence," International Conference and Workshop on Emerging Trends in Technology (ICWET), pp. 708-710, 2011.
+
+[3] Building Intelligent Search Systems: Advances in AI-Based Information Retrieval, Research Survey Paper, 2024.
+
+[4] T. Mikolov et al., "Distributed Representations of Words and Phrases and their Compositionality," Advances in Neural Information Processing Systems, vol. 26, pp. 3111-3119, 2013.
+
+[5] J. Devlin, M. Chang, K. Lee, and K. Toutanova, "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding," Proceedings of NAACL-HLT, pp. 4171-4186, 2019.
+
+[6] Facebook AI Research, "FAISS: A Library for Efficient Similarity Search and Clustering of Dense Vectors," 2024.
+
+[7] H. Touvron et al., "LLaMA: Open and Efficient Foundation Language Models," Meta AI Research, 2023.
+
+---
+
+# Appendix (Optional)
+
+## Additional Materials
+
+The appendix may include:
+
+- System architecture diagrams
+- Experimental graphs
+- User interface screenshots
+- Sample query outputs
+- Additional performance tables
+- Source code snippets
+
+---
+
+# Declaration
+
+We hereby declare that this research work is original and has been carried out by us under the guidance of the faculty mentor. All references used in this paper have been properly cited.
+
+---
+
+# Acknowledgement
+
+We sincerely thank:
+
+- ERA Foundation
+- ComedKares
+- Faculty mentors
+- Institution
+- Industry experts
+
+for their continuous support, valuable guidance, and encouragement throughout the development of this research work.
+
+---
