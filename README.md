@@ -276,28 +276,13 @@ Although some systems use Artificial Intelligence techniques, they still struggl
 
 Advanced AI-powered retrieval systems using Large Language Models, semantic embeddings, and transformer architectures require significant computational resources, memory, and cloud infrastructure. As document collections grow larger, maintaining retrieval speed, scalability, and efficiency becomes challenging.
 
-Most existing systems face difficulties in balancing:
-- Accuracy
-- Response time
-- Scalability
-- Resource utilization
-
-This creates a need for optimized and lightweight semantic retrieval architectures.
-
 ---
 
 ## Gap 3
 
 ### Lack of User-Friendly and Integrated Intelligent Search Systems
 
-Several existing solutions focus either on retrieval speed or AI intelligence, but very few systems successfully combine:
-- Semantic understanding
-- Easy usability
-- Secure document handling
-- Intelligent answer generation
-- Multi-document support
-- Efficient vector retrieval
-
+Several existing solutions focus either on retrieval speed or AI intelligence, but very few systems successfully combine
 Many systems are technically complex and difficult for general users to operate. There is a need for a practical, scalable, and user-friendly intelligent document search platform capable of handling unstructured documents efficiently.
 
 ---
@@ -676,34 +661,6 @@ The performance of the proposed AI-Based Smart Document Search Engine was evalua
 
 The experimental analysis of the proposed AI-Based Smart Document Search Engine produced several important observations regarding semantic retrieval, contextual understanding, and overall system performance.
 
-### Observation 1: Improved Contextual Understanding
-
-The proposed system successfully understood the semantic meaning of user queries rather than relying only on exact keyword matching. Even when users entered natural language questions or indirect queries, the system retrieved relevant information effectively.
-
-### Observation 2: Better Retrieval Accuracy
-
-Compared to traditional keyword-based systems, the proposed semantic search approach significantly improved retrieval accuracy. Relevant document chunks were retrieved even when the exact keywords were absent from the documents.
-
-### Observation 3: Reduction of Irrelevant Results
-
-The use of vector embeddings and semantic similarity search reduced the number of irrelevant search results. This improved the precision and quality of retrieved information.
-
-### Observation 4: Efficient Handling of Unstructured Documents
-
-The system efficiently processed large unstructured documents such as PDFs and research papers through text extraction, preprocessing, and chunking techniques.
-
-### Observation 5: Faster Information Access
-
-FAISS vector indexing enabled faster retrieval of semantically similar document chunks, reducing overall search time and improving user experience.
-
-### Observation 6: Effective AI-Based Answer Generation
-
-Large Language Models (LLMs) generated context-aware and human-readable responses using retrieved document content, improving interaction quality and usability.
-
-### Observation 7: Scalability Challenges
-
-As document size and dataset volume increased, computational requirements and memory usage also increased. This indicates the importance of optimized indexing and scalable infrastructure for large-scale deployment.
-
 ---
 
 # 11. Discussion
@@ -719,7 +676,6 @@ The proposed system achieved several improvements, including:
 - Faster information access using vector databases
 - Intelligent answer generation using LLMs
 - Reduced dependency on exact keyword matching
-- Efficient handling of unstructured documents
 
 The integration of embeddings, semantic similarity search, and Large Language Models enabled the system to provide context-aware results and improve user interaction.
 
@@ -736,14 +692,6 @@ During implementation and experimentation, several challenges were encountered:
 These challenges highlight the need for optimization and scalable infrastructure in AI-based retrieval systems.
 
 ## Performance Comparison
-
-The proposed semantic retrieval system outperformed traditional keyword-based search systems in terms of:
-
-- Accuracy
-- Precision
-- Recall
-- Context understanding
-- User experience
 
 Traditional systems mainly depended on exact keyword matching, while the proposed system used semantic embeddings and contextual retrieval techniques to improve overall performance.
 
