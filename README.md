@@ -47,11 +47,11 @@ Artificial Intelligence, Semantic Search, Document Retrieval, Natural Language P
 
 ## 1.1 Background
 
-The rapid growth of digital information has resulted in a massive increase in unstructured documents such as PDFs, reports, research papers, and text files. Traditional search systems primarily rely on keyword-based matching techniques, which are often unable to understand the actual meaning or context of user queries. As a result, users frequently receive irrelevant results even when the required information exists within the documents.
+The rapid growth of digital information has resulted in a massive increase in unstructured documents such as PDFs, reports, research papers, and text files. Traditional search systems primarily rely on keyword-based matching techniques, which are often unable to understand the actual meaning or context of user queries. As a result, users frequently receive irrelevant results even when the required information exists within the documents. [2][3]
 
-Artificial Intelligence and Natural Language Processing (NLP) technologies have introduced advanced approaches for semantic understanding and intelligent information retrieval. Semantic search systems use embeddings and vector similarity techniques to understand contextual meaning instead of exact word matching. This enables more accurate and relevant document retrieval.
+Artificial Intelligence and Natural Language Processing (NLP) technologies have introduced advanced approaches for semantic understanding and intelligent information retrieval. Semantic search systems use embeddings and vector similarity techniques to understand contextual meaning instead of exact word matching. This enables more accurate and relevant document retrieval. [1][3]
 
-The AI-Based Smart Document Search Engine is designed to improve document search efficiency by combining semantic search, vector databases, and Large Language Models (LLMs). The system helps users retrieve meaningful information quickly from large collections of unstructured documents.
+The AI-Based Smart Document Search Engine is designed to improve document search efficiency by combining semantic search, vector databases, and Large Language Models (LLMs). The system helps users retrieve meaningful information quickly from large collections of unstructured documents.[1][3]
 
 ---
 
@@ -59,10 +59,10 @@ The AI-Based Smart Document Search Engine is designed to improve document search
 
 Existing document search systems suffer from several limitations:
 
-- Dependence on exact keyword matching
-- Lack of contextual understanding
-- Poor handling of unstructured documents
-- Retrieval of irrelevant search results
+- Dependence on exact keyword matching [2]
+- Lack of contextual understanding [2][3]
+- Poor handling of unstructured documents [1]
+- Retrieval of irrelevant search results [2]
 - Increased time required for manual searching
 
 These limitations reduce productivity and make information retrieval difficult, especially when dealing with large-scale document repositories.
@@ -71,7 +71,7 @@ These limitations reduce productivity and make information retrieval difficult, 
 
 ## 1.3 Need for the Study
 
-With the increasing amount of digital data, there is a growing need for intelligent systems that can understand user intent and retrieve contextually relevant information. Traditional keyword-based systems are insufficient for modern document retrieval requirements.
+With the increasing amount of digital data, there is a growing need for intelligent systems that can understand user intent and retrieve contextually relevant information [3]. Traditional keyword-based systems are insufficient for modern document retrieval requirements.[2][3]
 
 This study is important because it introduces an AI-driven semantic search approach that:
 
@@ -262,9 +262,9 @@ After analyzing the existing research papers and current intelligent search syst
 
 ### Limited Semantic Understanding in Traditional Systems
 
-Many existing search systems still rely heavily on keyword-based retrieval and predefined ranking techniques. These systems fail to fully understand the contextual meaning and intent behind user queries, resulting in irrelevant or incomplete search results.
+Many existing search systems still rely heavily on keyword-based retrieval and predefined ranking techniques. These systems fail to fully understand the contextual meaning and intent behind user queries, resulting in irrelevant or incomplete search results.[2][3]
 
-Although some systems use Artificial Intelligence techniques, they still struggle with handling ambiguous queries, synonyms, and natural language interactions effectively.
+Although some systems use Artificial Intelligence techniques, they still struggle with handling ambiguous queries, synonyms, and natural language interactions effectively.[3]
 
 ---
 
@@ -272,7 +272,7 @@ Although some systems use Artificial Intelligence techniques, they still struggl
 
 ### High Computational Complexity and Scalability Issues
 
-Advanced AI-powered retrieval systems using Large Language Models, semantic embeddings, and transformer architectures require significant computational resources, memory, and cloud infrastructure. As document collections grow larger, maintaining retrieval speed, scalability, and efficiency becomes challenging.
+Advanced AI-powered retrieval systems using Large Language Models, semantic embeddings, and transformer architectures require significant computational resources, memory, and cloud infrastructure[1][3]. As document collections grow larger, maintaining retrieval speed, scalability, and efficiency becomes challenging.[1]
 
 ---
 
@@ -281,15 +281,15 @@ Advanced AI-powered retrieval systems using Large Language Models, semantic embe
 ### Lack of User-Friendly and Integrated Intelligent Search Systems
 
 Several existing solutions focus either on retrieval speed or AI intelligence, but very few systems successfully combine
-Many systems are technically complex and difficult for general users to operate. There is a need for a practical, scalable, and user-friendly intelligent document search platform capable of handling unstructured documents efficiently.
+Many systems are technically complex and difficult for general users to operate. There is a need for a practical, scalable, and user-friendly intelligent document search platform capable of handling unstructured documents efficiently.[1][3]
 
 ---
 
 # 5. Problem Statement
 
-Existing document search systems mainly rely on keyword-based retrieval techniques, which fail to understand the semantic meaning and context of user queries. As a result, users often receive irrelevant or incomplete search results while working with large collections of unstructured documents such as PDFs, reports, and text files.
+Existing document search systems mainly rely on keyword-based retrieval techniques, which fail to understand the semantic meaning and context of user queries[2][3]. As a result, users often receive irrelevant or incomplete search results while working with large collections of unstructured documents such as PDFs, reports, and text files.
 
-Current AI-based retrieval systems improve search accuracy but suffer from limitations such as high computational cost, scalability issues, implementation complexity, and dependency on large-scale infrastructure. Many existing solutions also lack efficient handling of unstructured data, intelligent answer generation, and user-friendly interaction.
+Current AI-based retrieval systems improve search accuracy but suffer from limitations such as high computational cost, scalability issues, implementation complexity, and dependency on large-scale infrastructure. Many existing solutions also lack efficient handling of unstructured data, intelligent answer generation, and user-friendly interaction.[1]
 
 Therefore, there is a need for an intelligent, scalable, and context-aware document search system that can efficiently process unstructured documents, understand semantic meaning, and provide accurate and relevant information retrieval using Artificial Intelligence techniques.
 
@@ -744,11 +744,11 @@ These future improvements can enhance scalability, usability, and overall system
 
 # 14. Conclusion
 
-This research addressed the limitations of traditional keyword-based document search systems, which often fail to understand the semantic meaning and context of user queries. Existing systems generally provide fast retrieval but lack intelligent contextual understanding, resulting in irrelevant search results and reduced productivity.
+This research addressed the limitations of traditional keyword-based document search systems, which often fail to understand the semantic meaning and context of user queries. Existing systems generally provide fast retrieval but lack intelligent contextual understanding, resulting in irrelevant search results and reduced productivity. [2][3]
 
-To overcome these limitations, an AI-Based Smart Document Search Engine was proposed using semantic search, vector embeddings, FAISS vector databases, and Large Language Models (LLMs). The system processes unstructured documents, generates semantic embeddings, performs similarity-based retrieval, and provides context-aware answers to users.
+To overcome these limitations, an AI-Based Smart Document Search Engine was proposed using semantic search, vector embeddings, FAISS vector databases, and Large Language Models (LLMs). The system processes unstructured documents, generates semantic embeddings, performs similarity-based retrieval, and provides context-aware answers to users.[1][3]
 
-The experimental results demonstrated significant improvements in retrieval accuracy, precision, recall, and overall search relevance compared to traditional search approaches. The proposed system successfully reduced dependency on exact keyword matching and improved intelligent document interaction.
+The experimental results demonstrated significant improvements in retrieval accuracy, precision, recall, and overall search relevance compared to traditional search approaches. The proposed system successfully reduced dependency on exact keyword matching and improved intelligent document interaction.[1][3]
 
 Overall, the research shows that AI-driven semantic retrieval systems can greatly enhance document search efficiency, improve user productivity, and provide intelligent access to information across academic, enterprise, and research applications.
 
