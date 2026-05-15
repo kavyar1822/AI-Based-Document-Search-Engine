@@ -10,18 +10,17 @@
 
 ### Submitted by
 
-**Kavya R**  
+*Kavya R*  
 1DA24MC025 <br>
 Master's of Computer Application <br>
-Dr Ambedkhar Institute of Technology  
+Dr Ambedkar Institute of Technology  
 
-  
-
-**Mentor 1:**  
+*Guide:*  
 Harsha T R
 
-**Mentor 2:**
-<br>Dr Chandrakanth G Pujari
+*Mentors :*  
+Sharanabasava
+Gangandeep
 
 ---
 
@@ -29,7 +28,7 @@ Harsha T R
 
 Traditional document search systems mainly depend on keyword-based retrieval techniques, which often fail to understand the actual meaning and context of user queries. This leads to irrelevant search results, reduced efficiency, and increased time consumption while searching large collections of unstructured documents such as PDFs, reports, and text files. Existing solutions provide fast retrieval but lack semantic understanding and intelligent response generation.
 
-This research proposes an AI-Based Smart Document Search Engine that uses semantic search techniques to improve document retrieval accuracy. The system combines text extraction, preprocessing, chunking, embedding generation, vector storage using FAISS, and Large Language Models (LLMs) to understand contextual meaning and provide relevant answers. Sentence Transformers are used to generate embeddings, while similarity matching retrieves the most relevant document content.
+This research proposes an AI-Based Smart Document Search Engine that uses semantic search techniques to improve document retrieval accuracy. The system combines text extraction, preprocessing, chunking, embedding generation, vector storage using FAISS, and Large Language Models (LLMs) to understand contextual meaning and provide relevant answers. Sentence Transformers are used to generate embeddings, while similarity matching retrieves the most relevant document content. [1][3]
 
 The proposed system aims to reduce dependency on exact keyword matching and improve search relevance through context-aware retrieval. The methodology focuses on efficient indexing, semantic similarity search, and AI-generated responses. The system can be applied in academic research, enterprise document management, and knowledge retrieval applications.
 
@@ -51,7 +50,7 @@ The rapid growth of digital information has resulted in a massive increase in un
 
 Artificial Intelligence and Natural Language Processing (NLP) technologies have introduced advanced approaches for semantic understanding and intelligent information retrieval. Semantic search systems use embeddings and vector similarity techniques to understand contextual meaning instead of exact word matching. This enables more accurate and relevant document retrieval. [1][3]
 
-The AI-Based Smart Document Search Engine is designed to improve document search efficiency by combining semantic search, vector databases, and Large Language Models (LLMs). The system helps users retrieve meaningful information quickly from large collections of unstructured documents.[1][3]
+The AI-Based Smart Document Search Engine is designed to improve document search efficiency by combining semantic search, vector databases, and Large Language Models (LLMs). The system helps users retrieve meaningful information quickly from large collections of unstructured documents. [1][3]
 
 ---
 
@@ -71,7 +70,9 @@ These limitations reduce productivity and make information retrieval difficult, 
 
 ## 1.3 Need for the Study
 
-With the increasing amount of digital data, there is a growing need for intelligent systems that can understand user intent and retrieve contextually relevant information [3]. Traditional keyword-based systems are insufficient for modern document retrieval requirements.[2][3]
+With the increasing amount of digital data, there is a growing need for intelligent systems that can understand user intent and retrieve contextually relevant information. [3]
+
+Traditional keyword-based systems are insufficient for modern document retrieval requirements. [2][3]
 
 This study is important because it introduces an AI-driven semantic search approach that:
 
@@ -80,8 +81,6 @@ This study is important because it introduces an AI-driven semantic search appro
 - Enhances productivity
 - Supports intelligent answer generation
 - Handles large unstructured datasets efficiently
-
-The proposed system can benefit students, researchers, organizations, and professionals who regularly work with large document collections.
 
 ---
 
@@ -92,7 +91,7 @@ The proposed system can benefit students, researchers, organizations, and profes
 - To reduce dependency on keyword-based retrieval
 - To generate context-aware answers using Large Language Models
 - To support efficient retrieval from unstructured documents
-  
+
 ---
 
 ## 1.5 Scope of the Work
@@ -104,17 +103,13 @@ The project mainly focuses on:
 - Semantic search techniques
 - AI-based contextual understanding
 - Efficient vector storage using FAISS
-- Retrieval-augmented answer generation
+- Retrieval-Augmented Generation (RAG)
 
 The system is intended for academic, enterprise, and research applications where intelligent document retrieval is required.
 
 ---
 
 # 2. Literature Review
-
-This section presents the analysis of existing research papers related to intelligent document retrieval, semantic search, and AI-powered information retrieval systems. The review helps identify current approaches, technologies used, advantages, and limitations, which form the foundation for the proposed AI-Based Smart Document Search Engine.
-
----
 
 ## 2.1 Research Paper 1
 
@@ -141,24 +136,22 @@ The system also includes additional features such as user authentication, encryp
 
 Overall, the paper demonstrates how semantic search and LLM-based retrieval can significantly improve the accuracy and efficiency of document search systems compared to traditional keyword-based methods.
 
+
 ### Advantages
 
-- Provides context-aware semantic search instead of exact keyword matching
-- Supports intelligent question answering from multiple PDF documents
-- Uses vector embeddings for accurate similarity retrieval
+- Context-aware semantic search
+- Intelligent question answering
+- Vector embedding retrieval
 
 ### Limitations
 
-- High computational and infrastructure requirements
-- Dependence on external APIs and cloud services
-- Scalability challenges with extremely large document collections
+- High computational requirements
+- Cloud dependency
+- Scalability challenges
 
 ---
 
 ## 2.2 Research Paper 2
-
-### Paper Details
-
 | Attribute | Details |
 |---|---|
 | Title | Smart Search Engine Using Artificial Intelligence |
@@ -184,22 +177,19 @@ Overall, the paper demonstrates how Artificial Intelligence can enhance traditio
 
 ### Advantages
 
-- Improves web coverage using multiple search engines
-- Provides context-based search and categorization
-- Removes duplicate results efficiently
+- Better web coverage
+- Query categorization
+- Duplicate removal
 
 ### Limitations
 
-- Limited semantic understanding compared to modern AI systems
-- Mainly focused on web search instead of document retrieval
-- Does not use modern transformer-based language models
+- Limited semantic understanding
+- Focused mainly on web search
+- No transformer-based AI models
 
 ---
 
 ## 2.3 Research Paper 3
-
-### Paper Details
-
 | Attribute | Details |
 |---|---|
 | Title | Building Intelligent Search Systems: Advances in AI-Based Information Retrieval |
@@ -225,18 +215,18 @@ However, the paper also discusses several important concerns related to AI-based
 
 Overall, the paper provides a strong theoretical foundation for intelligent semantic search systems and highlights the future direction of AI-powered information retrieval technologies.
 
+
 ### Advantages
 
-- Provides semantic and context-aware search capabilities
-- Supports conversational and interactive search systems
-- Improves personalization using user behavior and preferences
+- Semantic understanding
+- Conversational retrieval
+- Personalization support
 
 ### Limitations
 
-- High computational and infrastructure requirements
-- Privacy and ethical concerns related to user data
-- Lack of transparency in AI decision-making
-- Heavy dependency on large-scale AI models and cloud infrastructure
+- High infrastructure cost
+- Privacy concerns
+- Lack of transparency
 
 ---
 
@@ -295,6 +285,7 @@ Therefore, there is a need for an intelligent, scalable, and context-aware docum
 
 ---
 
+
 # 6. Proposed Solution
 
 The proposed system is an AI-Based Smart Document Search Engine designed to improve information retrieval from large collections of unstructured documents such as PDFs, reports, and text files. Unlike traditional keyword-based search systems, the proposed solution uses semantic search and Artificial Intelligence techniques to understand the meaning and context of user queries.
@@ -304,54 +295,61 @@ The system combines text extraction, preprocessing, chunking, embedding generati
 The proposed methodology focuses on improving search relevance, retrieval accuracy, scalability, and user interaction while reducing manual effort and search time.
 
 ---
-
 ## 6.1 System Overview
 
-The proposed system follows a structured workflow for intelligent document retrieval and answer generation.
+The proposed system follows a structured workflow for intelligent document retrieval and answer generation. The system uses semantic search, vector embeddings, FAISS indexing, and Large Language Models (LLMs) to provide context-aware document retrieval. Additionally, OCR support can be integrated for scanned PDF processing.
 
 ### Workflow of the System
 
-1. Document Upload  
-   Users upload PDF or text documents into the system.
+1. **Document Upload**  
+   Users upload PDF or text documents into the system through the web interface.
 
-2. Text Extraction  
-   The system extracts textual content from uploaded documents.
+2. **Text Extraction**  
+   The system extracts textual content from uploaded documents using PyPDF2 or PDF processing libraries.
 
-3. Data Preprocessing  
-   Extracted text is cleaned and prepared for processing.
+3. **OCR Processing (For Scanned PDFs)**  
+   If the uploaded PDF contains scanned images instead of selectable text, OCR techniques such as Tesseract OCR or EasyOCR are used to extract text from images.
 
-4. Text Chunking  
-   Large documents are divided into smaller meaningful chunks.
+4. **Data Preprocessing**  
+   Extracted text is cleaned and prepared by:
+   - Removing unwanted symbols
+   - Eliminating extra spaces
+   - Normalizing text formatting
 
-5. Embedding Generation  
-   Sentence Transformer models convert text chunks into vector embeddings.
+5. **Text Chunking**  
+   Large documents are divided into smaller meaningful chunks for efficient semantic retrieval and context handling.
 
-6. Vector Storage  
-   Embeddings are stored in the FAISS vector database for fast similarity search.
+6. **Embedding Generation**  
+   Sentence Transformer models convert text chunks into vector embeddings representing semantic meaning.
 
-7. User Query Processing  
-   User queries are converted into embeddings.
+7. **Vector Storage**  
+   Generated embeddings are stored inside the FAISS vector database for fast similarity search.
 
-8. Semantic Similarity Search  
-   The system retrieves the most relevant document chunks using vector similarity.
+8. **User Query Processing**  
+   User queries are converted into embeddings using the same embedding model.
 
-9. Answer Generation  
-   A Large Language Model generates context-aware responses based on retrieved content.
+9. **Semantic Similarity Search**  
+   The system retrieves the most relevant document chunks using vector similarity techniques.
 
-10. Result Display  
-    Relevant answers and document information are displayed to the user.
+10. **Answer Generation**  
+    Retrieved document chunks are passed to a Large Language Model (LLM) to generate context-aware answers.
+
+11. **Result Display**  
+    Relevant answers and document references are displayed to the user through the interface.
 
 ---
 
 ## 6.2 Key Features
 
-- Semantic and context-aware document search
-- Support for multiple document formats such as PDFs and text files
+- Semantic and context-aware document retrieval
+- Support for PDF and text document formats
+- OCR support for scanned PDF documents
 - Intelligent answer generation using Large Language Models
 - Fast vector-based similarity retrieval using FAISS
 - Automated text extraction and preprocessing
-- Improved search relevance through embeddings
-- User-friendly interaction and query handling
+- Embedding-based semantic similarity search
+- User-friendly query interaction
+- Efficient handling of unstructured document collections
 
 ---
 
@@ -363,13 +361,15 @@ The proposed system follows a structured workflow for intelligent document retri
 - Saves time and reduces manual searching effort
 - Handles unstructured documents effectively
 - Supports intelligent question answering
-- Enhances productivity for students, researchers, and organization
+- Supports scanned document processing through OCR
+- Enhances productivity for students, researchers, and organizations
+- Improves accessibility of large document repositories
 
 ---
 
 # 7. Methodology
 
-The methodology of the proposed AI-Based Smart Document Search Engine focuses on intelligent document retrieval using semantic search, vector embeddings, and Large Language Models (LLMs). The system processes unstructured documents and retrieves contextually relevant information through AI-based techniques.
+The methodology of the proposed AI-Based Smart Document Search Engine focuses on intelligent document retrieval using semantic search, vector embeddings, OCR processing, and Large Language Models (LLMs). The system processes unstructured documents and retrieves contextually relevant information through AI-based techniques.
 
 ---
 
@@ -381,40 +381,44 @@ The workflow of the proposed system is explained step-by-step below:
 Users upload documents such as PDFs and text files into the system.
 
 ### Step 2: Text Extraction
-The system extracts textual content from uploaded documents using document processing libraries.
+The system extracts textual content from uploaded documents using document processing libraries such as PyPDF2.
 
-### Step 3: Data Preprocessing
+### Step 3: OCR Processing
+If the document is scanned or image-based, OCR tools such as Tesseract OCR or EasyOCR are used to extract readable text.
+
+### Step 4: Data Preprocessing
 The extracted text is cleaned by:
 - Removing unwanted characters
 - Eliminating extra spaces
 - Formatting text properly
+- Normalizing textual data
 
-### Step 4: Text Chunking
+### Step 5: Text Chunking
 Large documents are divided into smaller chunks to improve semantic retrieval efficiency and context handling.
 
-### Step 5: Embedding Generation
-Sentence Transformer models convert text chunks into vector embeddings that represent semantic meaning.
+### Step 6: Embedding Generation
+Sentence Transformer models convert text chunks into vector embeddings representing semantic meaning.
 
-### Step 6: Vector Storage
+### Step 7: Vector Storage
 The generated embeddings are stored in the FAISS vector database for efficient similarity search.
 
-### Step 7: User Query Processing
+### Step 8: User Query Processing
 When a user enters a query, the query is also converted into vector embeddings.
 
-### Step 8: Semantic Similarity Search
+### Step 9: Semantic Similarity Search
 The system compares query embeddings with stored document embeddings using vector similarity techniques and retrieves the most relevant chunks.
 
-### Step 9: Answer Generation
-The retrieved document chunks are passed to a Large Language Model (LLM) to generate context-aware responses.
+### Step 10: Answer Generation
+The retrieved document chunks are passed to a Large Language Model (LLM) to generate intelligent and context-aware responses.
 
-### Step 10: Result Display
+### Step 11: Result Display
 The generated answer and related document information are displayed to the user.
 
 ---
 
 ## 7.2 System Architecture
 
-The proposed system architecture consists of document processing, semantic embedding generation, vector storage, similarity retrieval, and AI-based answer generation modules.
+The proposed system architecture consists of document processing, OCR-based extraction, semantic embedding generation, vector storage, similarity retrieval, and AI-based answer generation modules.
 
 ### Architecture Flow
 
@@ -423,7 +427,7 @@ User Query
      ↓
 Document Upload
      ↓
-Text Extraction
+Text Extraction / OCR
      ↓
 Preprocessing
      ↓
@@ -447,17 +451,18 @@ Generated Answer
 The data flow within the system follows a structured pipeline:
 
 1. Documents are uploaded into the system.
-2. Text is extracted and preprocessed.
-3. The processed text is divided into chunks.
-4. Embeddings are generated for each chunk.
-5. Embeddings are stored inside the FAISS vector database.
-6. User queries are converted into embeddings.
-7. Similarity search retrieves relevant document chunks.
-8. Retrieved content is passed to the LLM.
-9. The LLM generates intelligent and context-aware responses.
-10. Final results are displayed to the user.
+2. Text is extracted from PDFs or scanned images using OCR.
+3. Extracted text is preprocessed and cleaned.
+4. The processed text is divided into smaller chunks.
+5. Embeddings are generated for each chunk.
+6. Embeddings are stored inside the FAISS vector database.
+7. User queries are converted into embeddings.
+8. Similarity search retrieves relevant document chunks.
+9. Retrieved content is passed to the LLM.
+10. The LLM generates intelligent and context-aware responses.
+11. Final results are displayed to the user.
 
-This data flow enables fast, scalable, and context-aware information retrieval.
+This workflow enables fast, scalable, and context-aware information retrieval.
 
 ---
 
@@ -477,25 +482,25 @@ Used to identify document chunks that are contextually similar to the user query
 ### Large Language Models (LLMs)
 Used for intelligent answer generation and contextual response creation.
 
+### OCR (Optical Character Recognition)
+Tesseract OCR or EasyOCR is used to extract text from scanned or image-based PDF documents.
+
 ### Text Chunking Algorithms
 Used to divide large documents into smaller meaningful sections for better retrieval performance.
 
 ### Natural Language Processing (NLP)
-Used for text preprocessing, tokenization, and semantic understanding.
+Used for text preprocessing, tokenization, normalization, and semantic understanding.
 
 ---
-
 # 8. Implementation Details
 
 ## 8.1 Hardware Requirements
 
 | Component | Specification |
 |---|---|
-| Processor | Intel Core i5 / Ryzen 5 or above |
+| Processor | Intel Core i5 / Ryzen 5 |
 | RAM | Minimum 8 GB |
-| GPU | NVIDIA GPU (Optional for faster AI processing) |
-| Storage | Minimum 20 GB Free Space |
-| Internet | Required for API and model access |
+| Storage | 20 GB Free Space |
 
 ---
 
@@ -504,48 +509,59 @@ Used for text preprocessing, tokenization, and semantic understanding.
 | Software | Version |
 |---|---|
 | Python | 3.10+ |
-| LangChain | Latest Stable Version |
-| FAISS | Latest Stable Version |
-| Sentence Transformers | Latest Stable Version |
+| FAISS | Latest |
+| LangChain | Latest |
 | Flask | 2.x |
-| VS Code / Jupyter Notebook | Latest Version |
-| Operating System | Windows 10/11 or Linux |
 
 ---
 
 ## 8.3 Tools and Technologies
 
-### Programming Language
-- Python
+### AI & NLP
 
-### AI & NLP Technologies
 - Sentence Transformers
-- Large Language Models (LLMs)
-- Natural Language Processing (NLP)
+- Large Language Models
+- Natural Language Processing
 
-### Vector Database & Retrieval
-- FAISS (Facebook AI Similarity Search)
+### Vector Database
+
+- FAISS
 
 ### Frameworks & Libraries
+
 - LangChain
 - Flask
-- PyPDF2
 - Transformers
+- PyPDF2
+- pytesseract
+- EasyOCR
+- pdf2image
+- Pillow (PIL)
 
-### Frontend Technologies
-- HTML
-- CSS
-- JavaScript
+---
 
-### Development Tools
-- VS Code
-- Jupyter Notebook
-- Git & GitHub
+## 8.4 Additional Technical Details
 
-### Document Processing
-- PDF Text Extraction
-- Text Chunking
-- Semantic Embedding Generation
+### Embedding Model
+
+The system uses Sentence Transformer models for semantic embedding generation.
+
+### Similarity Search
+
+FAISS performs cosine similarity matching between document vectors and query vectors.
+
+### Metadata Storage
+
+The system stores:
+
+- Document name
+- Page number
+- Chunk ID
+- Upload timestamp
+
+### Security
+
+Local FAISS storage improves privacy by avoiding external cloud storage.
 
 ---
 
@@ -640,11 +656,8 @@ The following metrics are used to evaluate system performance:
 
 ---
 
+
 # 10. Results and Analysis
-
-## 10.1 Experimental Results
-
-The performance of the proposed AI-Based Smart Document Search Engine was evaluated and compared with traditional keyword-based document retrieval systems. The comparison focuses on semantic understanding, retrieval relevance, and overall search efficiency.
 
 | Metric | Existing System | Proposed System |
 |---|---|---|
@@ -655,102 +668,84 @@ The performance of the proposed AI-Based Smart Document Search Engine was evalua
 
 ---
 
-## 10.3 Observations
-
-The experimental analysis of the proposed AI-Based Smart Document Search Engine produced several important observations regarding semantic retrieval, contextual understanding, and overall system performance.
-
----
-
 # 11. Discussion
 
-The proposed AI-Based Smart Document Search Engine demonstrated significant improvements over traditional keyword-based search systems by introducing semantic understanding and intelligent information retrieval techniques.
+The proposed system significantly improves semantic retrieval and contextual understanding compared to traditional keyword-based systems.
 
-## Improvements Achieved
+### Improvements Achieved
 
-The proposed system achieved several improvements, including:
+- Better semantic understanding
+- Improved retrieval relevance
+- Faster vector-based retrieval
+- Intelligent AI-generated answers
 
-- Better semantic understanding of user queries
-- Improved retrieval relevance and accuracy
-- Faster information access using vector databases
-- Intelligent answer generation using LLMs
-- Reduced dependency on exact keyword matching
+### Challenges Faced
 
-The integration of embeddings, semantic similarity search, and Large Language Models enabled the system to provide context-aware results and improve user interaction.
+- Large dataset handling
+- High computational requirements
+- Hallucinated responses
+- OCR inaccuracies in low-quality scanned PDFs
 
-## Challenges Faced
+### Real-World Applications
 
-During implementation and experimentation, several challenges were encountered:
-
-- Handling large document datasets efficiently
-- Managing computational and memory requirements
-- Ensuring retrieval accuracy for complex queries
-- Reducing hallucinated AI-generated responses
-- Maintaining fast response time with increasing data size
-
-These challenges highlight the need for optimization and scalable infrastructure in AI-based retrieval systems.
-
-## Performance Comparison
-
-Traditional systems mainly depended on exact keyword matching, while the proposed system used semantic embeddings and contextual retrieval techniques to improve overall performance.
-
-## Real-World Applicability
-
-The proposed system has strong real-world applications in multiple domains, including:
-
-- Academic research systems
+- Academic research
 - Enterprise document management
-- Customer support platforms
-- Knowledge management systems
 - Digital libraries
-- Legal and healthcare document retrieval
+- Healthcare document retrieval
 
-The system can help users quickly retrieve relevant information from large document repositories, improving productivity and decision-making.
+Although the current implementation mainly focuses on text-based document retrieval, future OCR and multimodal retrieval enhancements can significantly improve system robustness and accessibility.
 
 ---
 
 # 12. Limitations
 
-Although the proposed system improves document retrieval performance, some limitations still exist.
-
-- High computational and memory requirements
-- Dependency on quality and structure of input documents
-- Possibility of hallucinated AI-generated responses
+- High computational requirements
+- Dependency on document quality
+- Hallucinated AI responses
 - Performance reduction with extremely large datasets
-- Requirement of internet/API access for some AI models
-- Limited multilingual support in the current implementation
+- Limited multilingual support
+- OCR accuracy may decrease for low-quality scanned documents
+
+Currently, the system mainly supports text-based PDFs. If the PDF contains scanned images, text extraction may fail without OCR integration.
 
 ---
 
 # 13. Future Scope
 
-The proposed system can be further improved and extended in several ways.
-
 ### Future Enhancements
 
-- Cloud-based deployment for large-scale accessibility
+- Cloud deployment
 - Mobile application support
-- Real-time document synchronization
-- Multilingual semantic search support
-- Voice-based query interaction
-- OCR integration for scanned documents
-- Hybrid search combining keyword and semantic retrieval
-- Edge AI optimization for lightweight deployment
-- Advanced reranking models for better retrieval accuracy
-- Integration with enterprise knowledge management systems
+- Real-time synchronization
+- Voice-based search
+- Hybrid search (keyword + semantic)
+- Edge AI optimization
+- OCR integration using Tesseract OCR or EasyOCR
+- Multilingual semantic search
+- Advanced reranking models
 
-These future improvements can enhance scalability, usability, and overall system intelligence.
+## OCR-Based Scanned Document Support
+
+Future versions of the system can integrate OCR technologies such as Tesseract OCR and EasyOCR to process scanned and image-based PDFs.
+
+This enhancement will:
+
+- Improve document accessibility
+- Support scanned documents
+- Enable image-based text retrieval
+- Increase real-world usability
 
 ---
 
 # 14. Conclusion
 
-This research addressed the limitations of traditional keyword-based document search systems, which often fail to understand the semantic meaning and context of user queries. Existing systems generally provide fast retrieval but lack intelligent contextual understanding, resulting in irrelevant search results and reduced productivity. [2][3]
+This research addressed the limitations of traditional keyword-based document search systems, which often fail to understand semantic meaning and contextual relationships between words. [2][3]
 
-To overcome these limitations, an AI-Based Smart Document Search Engine was proposed using semantic search, vector embeddings, FAISS vector databases, and Large Language Models (LLMs). The system processes unstructured documents, generates semantic embeddings, performs similarity-based retrieval, and provides context-aware answers to users.[1][3]
+To overcome these limitations, an AI-Based Smart Document Search Engine was proposed using semantic embeddings, FAISS vector databases, Retrieval-Augmented Generation (RAG), and Large Language Models. [1][3]
 
-The experimental results demonstrated significant improvements in retrieval accuracy, precision, recall, and overall search relevance compared to traditional search approaches. The proposed system successfully reduced dependency on exact keyword matching and improved intelligent document interaction.[1][3]
+The proposed system improved retrieval relevance, contextual understanding, and intelligent answer generation compared to traditional search approaches. [1][3]
 
-Overall, the research shows that AI-driven semantic retrieval systems can greatly enhance document search efficiency, improve user productivity, and provide intelligent access to information across academic, enterprise, and research applications.
+Overall, the research demonstrates that AI-driven semantic retrieval systems can significantly improve intelligent document interaction, productivity, and information accessibility.
 
 ---
 
@@ -758,25 +753,26 @@ Overall, the research shows that AI-driven semantic retrieval systems can greatl
 
 ## IEEE References
 
-[1] K. Shruthi, E. Tulasi, R. Anjali, and S. Maniteja, 
-"AI Powered Document Processing System Using LangChain & Semantic Search," 
-2024.  
+[1] K. Shruthi, E. Tulasi, R. Anjali, and S. Maniteja,  
+"AI Powered Document Processing System Using LangChain & Semantic Search,"2024.
 Available: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5195643
 
-[2] A. Modi, A. Bhandari, K. Desai, and N. Shah, 
-"Smart Search Engine Using Artificial Intelligence," 
-International Conference and Workshop on Emerging Trends in Technology (ICWET), 2011.  
+[2] A. Modi, A. Bhandari, K. Desai, and N. Shah,  
+"Smart Search Engine Using Artificial Intelligence,"  
+ICWET, 2011.
 Available: https://elicit.com/review/f55dd79b-43cf-4cb6-87d4-352f12fbfdb1/source/ss-31430316
 
-[3] "Building Intelligent Search Systems: Advances in AI-Based Information Retrieval," 
-Research Survey Paper, 2024.  
+
+[3] "Building Intelligent Search Systems: Advances in AI-Based Information Retrieval,"  
+Research Survey Paper, 2024.
 Available: https://elicit.com/review/f55dd79b-43cf-4cb6-87d4-352f12fbfdb1/source/ss-279221716
+
 
 ---
 
 # Declaration
 
-We hereby declare that this research work is original and has been carried out by us under the guidance of the faculty mentor. All references used in this paper have been properly cited.
+We hereby declare that this research work is original and has been carried out under the guidance of faculty mentors. All references have been properly cited.
 
 ---
 
@@ -786,10 +782,8 @@ We sincerely thank:
 
 - ERA Foundation
 - ComedKares
-- Faculty mentors
+- Faculty Mentors
 - Institution
-- Industry experts
+- Industry Experts
 
-for their continuous support, valuable guidance, and encouragement throughout the development of this research work.
-
----
+for their valuable support and guidance throughout the project.
