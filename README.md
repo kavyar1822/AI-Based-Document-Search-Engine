@@ -763,6 +763,15 @@ Overall, the research shows that AI-driven semantic retrieval systems can greatl
 2024.  
 Available: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5195643
 
+[2] A. Modi, A. Bhandari, K. Desai, and N. Shah, 
+"Smart Search Engine Using Artificial Intelligence," 
+International Conference and Workshop on Emerging Trends in Technology (ICWET), 2011.  
+Available: https://ieeexplore.ieee.org/document/6005403
+
+[3] "Building Intelligent Search Systems: Advances in AI-Based Information Retrieval," 
+Research Survey Paper, 2024.  
+Available: https://arxiv.org/
+
 ---
 
 # Declaration
