@@ -758,19 +758,10 @@ Overall, the research shows that AI-driven semantic retrieval systems can greatl
 
 ## IEEE References
 
-[1] K. Shruthi, E. Tulasi, R. Anjali, and S. Maniteja, "AI Powered Document Processing System Using LangChain & Semantic Search," International Journal of Advanced Research in Science, Communication and Technology, vol. 4, no. 2, pp. 101-108, 2024.
-
-[2] A. Modi, A. Bhandari, K. Desai, and N. Shah, "Smart Search Engine Using Artificial Intelligence," International Conference and Workshop on Emerging Trends in Technology (ICWET), pp. 708-710, 2011.
-
-[3] Building Intelligent Search Systems: Advances in AI-Based Information Retrieval, Research Survey Paper, 2024.
-
-[4] T. Mikolov et al., "Distributed Representations of Words and Phrases and their Compositionality," Advances in Neural Information Processing Systems, vol. 26, pp. 3111-3119, 2013.
-
-[5] J. Devlin, M. Chang, K. Lee, and K. Toutanova, "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding," Proceedings of NAACL-HLT, pp. 4171-4186, 2019.
-
-[6] Facebook AI Research, "FAISS: A Library for Efficient Similarity Search and Clustering of Dense Vectors," 2024.
-
-[7] H. Touvron et al., "LLaMA: Open and Efficient Foundation Language Models," Meta AI Research, 2023.
+[1] K. Shruthi, E. Tulasi, R. Anjali, and S. Maniteja, 
+"AI Powered Document Processing System Using LangChain & Semantic Search," 
+2024.  
+Available: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5195643
 
 ---
 
