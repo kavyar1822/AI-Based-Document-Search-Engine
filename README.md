@@ -766,11 +766,11 @@ Available: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5195643
 [2] A. Modi, A. Bhandari, K. Desai, and N. Shah, 
 "Smart Search Engine Using Artificial Intelligence," 
 International Conference and Workshop on Emerging Trends in Technology (ICWET), 2011.  
-Available: https://ieeexplore.ieee.org/document/6005403
+Available: https://elicit.com/review/f55dd79b-43cf-4cb6-87d4-352f12fbfdb1/source/ss-31430316
 
 [3] "Building Intelligent Search Systems: Advances in AI-Based Information Retrieval," 
 Research Survey Paper, 2024.  
-Available: https://arxiv.org/
+Available: https://elicit.com/review/f55dd79b-43cf-4cb6-87d4-352f12fbfdb1/source/ss-279221716
 
 ---
 
