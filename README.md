@@ -657,18 +657,8 @@ The following metrics are used to evaluate system performance:
 ---
 
 
-# 10. Results and Analysis
 
-| Metric | Existing System | Proposed System |
-|---|---|---|
-| Accuracy | 72% | 92% |
-| Precision | 70% | 90% |
-| Recall | 68% | 89% |
-| F1-Score | 69% | 89.5% |
-
----
-
-# 11. Discussion
+# 10. Discussion
 
 The proposed system significantly improves semantic retrieval and contextual understanding compared to traditional keyword-based systems.
 
