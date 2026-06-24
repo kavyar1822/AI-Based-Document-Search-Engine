@@ -18,10 +18,6 @@ Dr Ambedkar Institute of Technology
 *Guide:*  
 Harsha T R
 
-*Mentors :*  
-Sharanabasava <br>
-Gangandeep
-
 ---
 
 # Abstract
