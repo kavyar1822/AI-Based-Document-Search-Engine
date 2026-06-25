@@ -1,24 +1,14 @@
-<p align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Ht9WSXBdz3Ce1AUjQBF2_1JAEohHpHv2tA&s" height="80" style="background:white; padding:8px; margin:0 16px;" />
-  <img src="https://www.erafoundationindia.org/images/logo.svg" width="220"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://comedkares.org/wp-content/uploads/2023/04/Comedkares-Logo-EPS.png" width="220"/>
-</p>
+ <div align="center">
 
----
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Ht9WSXBdz3Ce1AUjQBF2_1JAEohHpHv2tA&s" height="80" style="background:white; padding:8px; margin:0 16px;" />
+<img src="https://www.erafoundationindia.org/images/logo.svg" height="80" style="background:white; padding:8px; margin:0 16px;" />
+<img src="https://comedkares.org/wp-content/uploads/2023/04/Comedkares-Logo-EPS.png" height="80" style="background:white; padding:8px; margin:0 16px;" />
 
-# AI-BASED SMART DOCUMENT SEARCH ENGINE
+</div>
+# AI BASED SMART DOCUMENT SEARCH ENGINE
 
-### Submitted by
 
-*Kavya R*  
-1DA24MC025 <br>
-Master's of Computer Application <br>
-Dr Ambedkar Institute of Technology  
-
-*Guide:*  
-Harsha T R
-
+*Kavya R*, MCA, 1DA24MC013 &nbsp;·&nbsp;
 ---
 
 # Abstract
