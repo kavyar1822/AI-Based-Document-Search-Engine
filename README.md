@@ -6,7 +6,6 @@
 
 </div>
 
-
 # AI BASED SMART DOCUMENT SEARCH ENGINE
 
 
