@@ -113,41 +113,41 @@ The methodology of the proposed AI-Based Smart Document Search Engine focuses on
 
 The workflow of the proposed system is explained step-by-step below:
 
-### Step 1: Document Upload
+### Document Upload
 Users upload documents such as PDFs and text files into the system.
 
-### Step 2: Text Extraction
+### Text Extraction
 The system extracts textual content from uploaded documents using document processing libraries such as PyPDF2.
 
-### Step 3: OCR Processing
+### OCR Processing
 If the document is scanned or image-based, OCR tools such as Tesseract OCR or EasyOCR are used to extract readable text.
 
-### Step 4: Data Preprocessing
+### Data Preprocessing
 The extracted text is cleaned by:
 - Removing unwanted characters
 - Eliminating extra spaces
 - Formatting text properly
 - Normalizing textual data
 
-### Step 5: Text Chunking
+### Text Chunking
 Large documents are divided into smaller chunks to improve semantic retrieval efficiency and context handling.
 
-### Step 6: Embedding Generation
+###  Embedding Generation
 Sentence Transformer models convert text chunks into vector embeddings representing semantic meaning.
 
-### Step 7: Vector Storage
+###  Vector Storage
 The generated embeddings are stored in the FAISS vector database for efficient similarity search.
 
-### Step 8: User Query Processing
+### User Query Processing
 When a user enters a query, the query is also converted into vector embeddings.
 
-### Step 9: Semantic Similarity Search
+###  Semantic Similarity Search
 The system compares query embeddings with stored document embeddings using vector similarity techniques and retrieves the most relevant chunks.
 
-### Step 10: Answer Generation
+###  Answer Generation
 The retrieved document chunks are passed to a Large Language Model (LLM) to generate intelligent and context-aware responses.
 
-### Step 11: Result Display
+### Result Display
 The generated answer and related document information are displayed to the user.
 
 ---
