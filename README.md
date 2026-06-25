@@ -5,10 +5,13 @@
 <img src="https://comedkares.org/wp-content/uploads/2023/04/Comedkares-Logo-EPS.png" height="80" style="background:white; padding:8px; margin:0 16px;" />
 
 </div>
+---
+
 # AI BASED SMART DOCUMENT SEARCH ENGINE
 
 
-*Kavya R*, MCA, 1DA24MC013 &nbsp;·&nbsp;
+*Kavya R* <br> MCA <br> 1DA24MC025
+
 ---
 
 # Abstract
